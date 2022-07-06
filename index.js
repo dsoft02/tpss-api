@@ -1,6 +1,7 @@
 //importing the depenencies
 const express=require('express');
 const app=express();
+app.use(express.json());
 
 //PORT ENVIRONMENT VARIABLE
 const port = process.env.PORT || 3000;
