@@ -1,0 +1,17 @@
+{
+  "name": "tpss-api",
+  "version": "1.0.0",
+  "description": "This is a Transaction payment splitting service (TPSS).\r that was designed as a part of the requirement for flutterwave 2022 TECH HEROES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ebenezer Ogidiolu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
